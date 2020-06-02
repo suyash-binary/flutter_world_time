@@ -45,7 +45,7 @@ class _ChooseLocationPageState extends State<ChooseLocationPage> {
             itemBuilder: (context, index) {
               return ListTile(
                 title: Text('${locations[index]}'),
-                onTap: (){
+                onTap: () {
                   //print('${locations[index]}');
                   Navigator.pop(context, locations[index]);
                 },
